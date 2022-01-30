@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+
+<body  background="jGlzr.png" style="background-color: rgb(164, 196, 255);">
+      <h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: crimson;" >REGISTRATION FORM</h3>
+      <form action="backend.php">
+        <div>
+        FIRST NAME:&nbsp;&nbsp;&nbsp; <input type="text"  height="50px" min="10"><font style="font-size: 10px;">>(max 30 character a-z or A-Z)</font><br><br>
+            LAST NAME: &nbsp;&nbsp;&nbsp; <input type="text"> <font style="font-size: 10px;">>(max 30 character a-z or A-Z)</font>
+            
+            </div>
+            <div>
+                <br>
+                DATE OF BIRTH: &nbsp;&nbsp;&nbsp;<input  text-align="center" type="date" name="date" id="mydate">
+            </div>
+            <div>
+                <br>
+                EMAIL:&nbsp;&nbsp;&nbsp; <input type="email" name="email" id="myemail">
+            </div>
+            <div>
+                <br>
+                GENDER:&nbsp;&nbsp;&nbsp; male <input type="radio" name="male" id="male"> female: <input type="radio" name="male" id="female"> other: <input type="radio" name="male" id="">
+            </div>
+            <div>
+                <br>
+                ADDRESS 
+                <br><textarea name="" id="" cols="20" rows="5"></textarea>
+            </div>
+            <div>
+                <br><br>
+                CITY <input type="text">
+                <br><br>
+                PIN CODE <input type="text"><font style="font-size: 10px;">>(six digit)</font>
+                <br><br>
+                STATE <input type="text">
+                <br><br>
+                COUNTRY <input type="text" name="INDIA">
+            </div>
+            <div>
+                <br>
+                HOBBIES  playiing <input type="checkbox" name="" id="HOBBIES"> watching movies <input type="checkbox" name="" id=""> singing <input type="checkbox" name="" id="">
+            </div>
+            
+            <div>
+                <br>
+                <font>QUALIFICATION </font>
+                <table border="1" bgcolor="white">
+                    <tr>
+                        <th>SL.NO</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of Passing</th>
+
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Class X</td>
+                        <td><input type="text" name="QUALIFICATION"></td>
+                        <td><input type="text" name="QUALIFICATION"></td>
+                        <td><input type="text" name="QUALIFICATION"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Class XII</td>
+                        <td><input type="text" name="QUALIFICATION"></td>
+                        <td><input type="text" name="QUALIFICATION"></td>
+                        <td><input type="text" name="QUALIFICATION"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>graduation</td>
+                        <td><input type="text"></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <br>
+                <font style="color: crimson;">COURSE APPLIED FOR</font>
+                B.SC <input type="radio" name="name" id="COURSE"> B,COM <input type="radio" name="name"> B.TECH <input type="radio" name="name" id="">
+            </div>
+            <div>
+                <br>
+            <font> UPLOAD PHOTO </font>
+            <input type="file" name="photo" id="">
+            </div>
+            <div>
+                <br>
+                <font>UPLOAD SIGNATURE</font>
+                <input type="file" name="signature" id="">
+            </div>
+           <div>
+               <br>
+               <input type="submit" value="submit Now"> <input type="reset" value="reset now">
+           </div> 
+
+
+      </form> 
+      
+</body>
+</html>
